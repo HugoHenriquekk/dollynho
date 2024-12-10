@@ -44,27 +44,40 @@ const config = {
         builders: "rgba(247, 2, 176, 0.5)",
     },
     adminTeamPage: {
-        Owners: [
+        Donos: [
             {
                 inGameName: "Putz_Tijolo",
                 rank: "Owner",
                 skinUrlOrPathToFile: "",
-                rankColor: "rgba(255, 3, 3, 1)"
+                rankColor: "rgba(255, 163, 0, 1)"
             },
             {
                 inGameName: "TUTUYRE",
                 rank: "Co-Owner",
                 skinUrlOrPathToFile: "images/tutuyre.png",
+                rankColor: "rgba(255, 197, 0, 1)"
+            },
+           
+        ],
+        Ajudantes: [
+            {
+                inGameName: "Neves07413",
+                rank: "Ajudante",
+                skinUrlOrPathToFile: "images/neves07413.png",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
-            {
-                inGameName: "EduuBw",
-                rank: "Discord Mod",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgba(11, 175, 255, 0.5)"
+			{
+                inGameName: "Bomba783",
+                rank: "Ajudante",
+                skinUrlOrPathToFile: "images/bomba783.png",
+                rankColor: "rgb( 0, 137, 7)"
             },
+           
         ],
-        
+        // Youtuber: [
+		
+           
+        // ],
         
     },
 
